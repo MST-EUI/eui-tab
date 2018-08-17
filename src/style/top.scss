@@ -1,0 +1,96 @@
+.#{$tabPrefixCls}-top {
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.#{$tabPrefixCls}-top .#{$tabPrefixCls}-content {
+    width: 100%;
+}
+
+.#{$tabPrefixCls}-top .#{$tabPrefixCls}-bar {
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.#{$tabPrefixCls}-top .#{$tabPrefixCls}-nav-container-scrolling {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.#{$tabPrefixCls}-top .#{$tabPrefixCls}-nav-scroll {
+    width: 99999px;
+}
+
+.#{$tabPrefixCls}-top .#{$tabPrefixCls}-nav-swipe {
+    position: relative;
+    left: 0;
+    .#{$tabPrefixCls}-nav {
+        display: flex;
+        flex: 1;
+        width: 100%;
+        .#{$tabPrefixCls}-tab {
+            display: flex;
+            flex-shrink: 0;
+            margin-right: 0;
+            padding: 8px 0;
+            justify-content: center;
+        }
+    }
+}
+
+.#{$tabPrefixCls}-top .#{$tabPrefixCls}-nav-wrap {
+    width: 100%;
+}
+
+.#{$tabPrefixCls}-top .#{$tabPrefixCls}-content-animated {
+    flex-direction: row;
+    .#{$tabPrefixCls}-tabpane {
+        width: 100%;
+    }
+}
+
+.#{$tabPrefixCls}-top .#{$tabPrefixCls}-tab-next {
+    right: 2px;
+    .#{$tabPrefixCls}-icon:before {
+        content: ">";
+    }
+}
+
+.#{$tabPrefixCls}-top .#{$tabPrefixCls}-tab-prev {
+    left: 0;
+    .#{$tabPrefixCls}-icon:before {
+        content: "<";
+    }
+}
+
+.#{$tabPrefixCls}-top .#{$tabPrefixCls}-tab-prev,
+.#{$tabPrefixCls}-top .#{$tabPrefixCls}-tab-next {
+    margin-right: -2px;
+    width: 0;
+    height: 0;
+    top: 0;
+    text-align: center;
+    opacity: 0;
+    transition: width .3s, height .3s, opacity .3s;
+}
+
+.#{$tabPrefixCls}-top .#{$tabPrefixCls}-tab-arrow-show {
+    opacity: 1;
+    width: 32px;
+    height: 100%;
+}
+
+.#{$tabPrefixCls}-top .#{$tabPrefixCls}-ink-bar {
+    height: 2px;
+    bottom: 0;
+    left: 0;
+}
+
+.#{$tabPrefixCls}-top .#{$tabPrefixCls}-tab {
+    float: left;
+    height: 100%;
+    margin-right: 30px;
+}
+
+.#{$tabPrefixCls}-top .#{$tabPrefixCls}-tabpane-inactive {
+    height: 0;
+    overflow: visible;
+}

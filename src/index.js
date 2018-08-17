@@ -1,4 +1,4 @@
-import EmptyData from './EmptyData';
+import tabs from './tabs';
 
-module.exports = EmptyData;
+module.exports = tabs;
 
