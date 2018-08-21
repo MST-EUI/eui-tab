@@ -23,6 +23,9 @@ ReactDOM.render(
 ```
 ## API
 Tabs
+
+---
+
 keys | type |default | description
 ---|---|---|---
 activeKey|String|null|当前激活选项key
@@ -33,7 +36,12 @@ tabBarExtraContent|React Node||额外的元素 在tab右侧
 
 type|line、card|line |选项卡模式 是否选择卡片模式
 
+---
+
 TabPane
+
+---
+
 keys | type |default | description
 ---|---|---|---
 key|Object||当前激活key 唯一
