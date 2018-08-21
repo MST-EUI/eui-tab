@@ -1,0 +1,25 @@
+.#{$tabPrefixCls}-card {
+    .#{$tabPrefixCls}-ink-bar {
+        // width: 24px!important;
+        // height: 3px;
+        height: 0 !important;
+    }
+    .eui-tabs-nav-wrap {
+        background: #F4F4F4;
+    }
+    .eui-tabs-tab-active {
+        background: #fff;
+    }
+    .eui-tabs-bar {
+        border: none;
+    }
+    .eui-tabs-nav {
+        .eui-tabs-tab {
+            padding: 20px 37px;
+        }
+    }
+
+    .eui-tabs-content{
+      background: rgb(252,252,252);
+    }
+}

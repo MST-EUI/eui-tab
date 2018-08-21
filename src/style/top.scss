@@ -1,5 +1,5 @@
 .#{$tabPrefixCls}-top {
-    border-bottom: 2px solid #f3f3f3;
+    border-bottom: 2px solid #DDD;
 }
 
 .#{$tabPrefixCls}-top .#{$tabPrefixCls}-content {
@@ -7,7 +7,7 @@
 }
 
 .#{$tabPrefixCls}-top .#{$tabPrefixCls}-bar {
-    border-bottom: 1px solid #f3f3f3;
+    border-bottom: 1px solid #DDD;
 }
 
 .#{$tabPrefixCls}-top .#{$tabPrefixCls}-nav-container-scrolling {
@@ -22,11 +22,11 @@
 .#{$tabPrefixCls}-top .#{$tabPrefixCls}-nav-swipe {
     position: relative;
     left: 0;
-    .#{$tabPrefixCls}-nav {
+    &-nav {
         display: flex;
         flex: 1;
         width: 100%;
-        .#{$tabPrefixCls}-tab {
+        &-tab {
             display: flex;
             flex-shrink: 0;
             margin-right: 0;
@@ -42,21 +42,21 @@
 
 .#{$tabPrefixCls}-top .#{$tabPrefixCls}-content-animated {
     flex-direction: row;
-    .#{$tabPrefixCls}-tabpane {
+    &-tabpane {
         width: 100%;
     }
 }
 
 .#{$tabPrefixCls}-top .#{$tabPrefixCls}-tab-next {
     right: 2px;
-    .#{$tabPrefixCls}-icon:before {
+    &-icon:before {
         content: ">";
     }
 }
 
 .#{$tabPrefixCls}-top .#{$tabPrefixCls}-tab-prev {
     left: 0;
-    .#{$tabPrefixCls}-icon:before {
+    &-icon:before {
         content: "<";
     }
 }
@@ -75,6 +75,7 @@
 .#{$tabPrefixCls}-top .#{$tabPrefixCls}-tab-arrow-show {
     opacity: 1;
     width: 32px;
+
     height: 100%;
 }
 

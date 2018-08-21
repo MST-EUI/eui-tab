@@ -1,13 +1,30 @@
 $tabPrefixCls: eui-tabs;
 $easing-in-out: cubic-bezier(0.35, 0, 0.25, 1);
-$effect-duration: .3s;
+$effect-duration: .2s;
 $ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
+
+// for iconfont font size
+// fix chrome 12px bug, support ie
+
+// .iconfont-size-under-12px(@size, @rotate: 0deg) {
+//   display: inline-block;
+//   @font-scale: unit(@size / @font-size-base);
+//   font-size: @font-size-base;
+//   font-size: ~"@{size} \9"; // ie8-9
+//   transform: scale(@font-scale) rotate(@rotate);
+//   .ie-rotate-via-degrees(@rotate);
+//   :root & {
+//     font-size: @font-size-base; // reset ie9 and above
+//   }
+// }
 @mixin motion-common {
-    animation-duration: .2s;
+    animation-duration: .7s;
     animation-fill-mode: both;
 }
 
 @import './top.scss';
+@import './icon.scss';
+@import './card.scss';
 .#{$tabPrefixCls} {
     box-sizing: border-box;
     position: relative;
@@ -27,44 +44,16 @@ $ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
     .#{$tabPrefixCls}-ink-bar {
         z-index: 1;
         position: absolute;
+        left: 0;
+        bottom: 0px;
         box-sizing: border-box;
-        margin-top: -3px;
-        background-color: #108ee9;
+        height: 2px;
+        background-color: #2E86FF;
+        transition: transform 0.3s $easing-in-out;
         transform-origin: 0 0;
-        .#{$tabPrefixCls}-animated {
-            transition: transform $effect-duration $easing-in-out;
-        }
-    } // .#{$tabPrefixCls}-tab-prev,
-    // .#{$tabPrefixCls}-tab-next {
-    //     user-select: none;
-    //     z-index: 1;
-    //     line-height: 36px;
-    //     cursor: pointer;
-    //     border: none;
-    //     background-color: transparent;
-    //     position: absolute;
-    //     .#{$tabPrefixCls}-icon {
-    //         position: relative;
-    //         display: inline-block;
-    //         font-style: normal;
-    //         font-weight: normal;
-    //         font-variant: normal;
-    //         line-height: inherit;
-    //         vertical-align: baseline;
-    //         text-align: center;
-    //         text-transform: none;
-    //         font-smoothing: antialiased;
-    //         text-stroke-width: 0;
-    //         font-family: sans-serif;
-    //         &:before {
-    //             display: block;
-    //         }
-    //     }
-    // }
+    }
     .#{$tabPrefixCls}-tab-prev,
     .#{$tabPrefixCls}-tab-next {
-        width: 20px;
-        height: 20px;
         background: orange;
         user-select: none;
         z-index: 2;
@@ -75,7 +64,7 @@ $ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
         line-height: 32px;
         cursor: pointer;
         border: 0;
-        background-color: transparent;
+        // background-color: transparent;
         position: absolute;
         text-align: center;
         color: #999;
@@ -83,7 +72,7 @@ $ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
         &:hover {
             color: #666;
         }
-        .#{$tabPrefixCls}-icon {
+        &-icon {
             position: relative;
             display: inline-block;
             font-style: normal;
@@ -102,14 +91,17 @@ $ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
     }
     .#{$tabPrefixCls}-tab-next {
         right: 2px;
-        .#{$tabPrefixCls}-icon:before {
-            content: "\e600";
+        &-icon::before {
+            // content: "\e600";
+            // content: "\e63d";
+            content: '\e640';
         }
     }
     .#{$tabPrefixCls}-tab-prev {
         left: 0;
-        .#{$tabPrefixCls}-icon:before {
+        &-icon:before {
             content: "\e601";
+            content:"hello"
         }
         :root & {
             filter: none;
@@ -146,39 +138,41 @@ $ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
         box-sizing: border-box;
         position: relative;
         display: block;
-        transition: color $effect-duration $easing-in-out;
+        transition: color 0.3s $easing-in-out;
         padding: 8px 20px;
         font-weight: 500;
         cursor: pointer;
+        color:#666;
+        font-size: 16px;
         &:hover {
-            color: #23c0fa;
+            color: #2E86FF;
         }
     }
     .#{$tabPrefixCls}-tab-active {
         &,
         &:hover {
-            color: #108ee9;
+            color: #2E86FF;
             cursor: default; // fix chrome render
             transform: translateZ(0);
         }
     }
     .#{$tabPrefixCls}-tab-disabled {
-        cursor: default;
-        color: #ccc;
+        cursor: not-allowed;
+        color: #DDDDDD;
         &:hover {
-            color: #ccc;
+            color: #DDDDDD;
         }
     }
     .#{$tabPrefixCls}-content {
         zoom: 1;
-        .#{$tabPrefixCls}-tabpane {
+        &-tabpane {
             // overflow: auto;
         }
-        .#{$tabPrefixCls}-animated {
+        &-animated {
             transition: transform $effect-duration $easing-in-out, margin-left $effect-duration $easing-in-out, margin-top $effect-duration $easing-in-out;
             display: flex;
             will-change: transform;
-            .#{$tabPrefixCls}-tabpane {
+            &-tabpane {
                 flex-shrink: 0;
             }
         }

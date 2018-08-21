@@ -21,9 +21,11 @@ class Tabs extends Component {
   render() {
     const { prefixCls, type } = this.props;
     const { children } = this.props;
+
     const className = classNames({
       [`${prefixCls}-${type}`]: true,
     });
+
     return (
       <RcTabs
         {...this.props}
