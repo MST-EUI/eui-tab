@@ -40,6 +40,9 @@ key|Object||当前激活key 唯一
 tab |React.Node或者String| null |tab选项标题显示内容
 
 
+## 版本号
+### 0.1.0
+增加基础组件tab tabPane  
 
 
 
