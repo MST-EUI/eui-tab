@@ -33,7 +33,6 @@ defaultActiveKey|String|first active tabPane key | 设置默认选项
 onChange|function( key:String) :void|切换回调
 disabled | Boolean| false|是否禁用该选项
 tabBarExtraContent|React Node||额外的元素 在tab右侧
-
 type|line、card|line |选项卡模式 是否选择卡片模式
 
 ---
