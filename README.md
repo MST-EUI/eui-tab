@@ -50,6 +50,8 @@ tab |React.Node或者String| null |tab选项标题显示内容
 ## 版本号
 ### 0.1.0
 增加基础组件tab tabPane  
+### 0.1.1
+增加单元测试
 
 
 

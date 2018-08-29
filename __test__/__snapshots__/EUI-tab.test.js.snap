@@ -1,0 +1,2088 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab render correctly 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {},
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "class": "eui-tabs eui-tabs-top eui-tabs-line",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "class": "eui-tabs-bar",
+              "role": "tablist",
+              "tabindex": "0",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "class": "eui-tabs-nav-container ",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "class": "eui-tabs-nav-wrap",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "class": "eui-tabs-nav-scroll",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "class": "eui-tabs-nav",
+                            },
+                            "children": Array [
+                              Object {
+                                "attribs": Object {
+                                  "class": "eui-tabs-ink-bar",
+                                  "style": "transform: translate3d(0px,0,0); width: 0px; display: block;",
+                                },
+                                "children": Array [],
+                                "name": "div",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": Object {
+                                  "attribs": Object {
+                                    "aria-disabled": "false",
+                                    "aria-selected": "false",
+                                    "class": " eui-tabs-tab",
+                                    "role": "tab",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "attribs": Object {
+                                        "class": "eui-tabs-tab-inner",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "data": "选项卡一",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Object {
+                                    "attribs": Object {
+                                      "aria-disabled": "false",
+                                      "aria-selected": "false",
+                                      "class": " eui-tabs-tab",
+                                      "role": "tab",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {
+                                          "class": "eui-tabs-tab-inner",
+                                        },
+                                        "children": Array [
+                                          Object {
+                                            "data": "选项卡2",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "div",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": Object {
+                                      "attribs": Object {
+                                        "aria-disabled": "false",
+                                        "aria-selected": "true",
+                                        "class": "eui-tabs-tab-active eui-tabs-tab",
+                                        "role": "tab",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "attribs": Object {
+                                            "class": "eui-tabs-tab-inner",
+                                          },
+                                          "children": Array [
+                                            Object {
+                                              "data": "选项卡3",
+                                              "next": null,
+                                              "parent": [Circular],
+                                              "prev": null,
+                                              "type": "text",
+                                            },
+                                          ],
+                                          "name": "div",
+                                          "namespace": "http://www.w3.org/1999/xhtml",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "tag",
+                                          "x-attribsNamespace": Object {
+                                            "class": undefined,
+                                          },
+                                          "x-attribsPrefix": Object {
+                                            "class": undefined,
+                                          },
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": [Circular],
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "aria-disabled": undefined,
+                                        "aria-selected": undefined,
+                                        "class": undefined,
+                                        "role": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "aria-disabled": undefined,
+                                        "aria-selected": undefined,
+                                        "class": undefined,
+                                        "role": undefined,
+                                      },
+                                    },
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                  },
+                                  "parent": [Circular],
+                                  "prev": [Circular],
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                },
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                  "style": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                  "style": undefined,
+                                },
+                              },
+                              Object {
+                                "attribs": Object {
+                                  "aria-disabled": "false",
+                                  "aria-selected": "false",
+                                  "class": " eui-tabs-tab",
+                                  "role": "tab",
+                                },
+                                "children": Array [
+                                  Object {
+                                    "attribs": Object {
+                                      "class": "eui-tabs-tab-inner",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "data": "选项卡一",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                ],
+                                "name": "div",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": Object {
+                                  "attribs": Object {
+                                    "aria-disabled": "false",
+                                    "aria-selected": "false",
+                                    "class": " eui-tabs-tab",
+                                    "role": "tab",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "attribs": Object {
+                                        "class": "eui-tabs-tab-inner",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "data": "选项卡2",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Object {
+                                    "attribs": Object {
+                                      "aria-disabled": "false",
+                                      "aria-selected": "true",
+                                      "class": "eui-tabs-tab-active eui-tabs-tab",
+                                      "role": "tab",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {
+                                          "class": "eui-tabs-tab-inner",
+                                        },
+                                        "children": Array [
+                                          Object {
+                                            "data": "选项卡3",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "div",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                  },
+                                  "parent": [Circular],
+                                  "prev": [Circular],
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                },
+                                "parent": [Circular],
+                                "prev": Object {
+                                  "attribs": Object {
+                                    "class": "eui-tabs-ink-bar",
+                                    "style": "transform: translate3d(0px,0,0); width: 0px; display: block;",
+                                  },
+                                  "children": Array [],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": [Circular],
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                    "style": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                    "style": undefined,
+                                  },
+                                },
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "aria-disabled": undefined,
+                                  "aria-selected": undefined,
+                                  "class": undefined,
+                                  "role": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "aria-disabled": undefined,
+                                  "aria-selected": undefined,
+                                  "class": undefined,
+                                  "role": undefined,
+                                },
+                              },
+                              Object {
+                                "attribs": Object {
+                                  "aria-disabled": "false",
+                                  "aria-selected": "false",
+                                  "class": " eui-tabs-tab",
+                                  "role": "tab",
+                                },
+                                "children": Array [
+                                  Object {
+                                    "attribs": Object {
+                                      "class": "eui-tabs-tab-inner",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "data": "选项卡2",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                ],
+                                "name": "div",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": Object {
+                                  "attribs": Object {
+                                    "aria-disabled": "false",
+                                    "aria-selected": "true",
+                                    "class": "eui-tabs-tab-active eui-tabs-tab",
+                                    "role": "tab",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "attribs": Object {
+                                        "class": "eui-tabs-tab-inner",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "data": "选项卡3",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": [Circular],
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                },
+                                "parent": [Circular],
+                                "prev": Object {
+                                  "attribs": Object {
+                                    "aria-disabled": "false",
+                                    "aria-selected": "false",
+                                    "class": " eui-tabs-tab",
+                                    "role": "tab",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "attribs": Object {
+                                        "class": "eui-tabs-tab-inner",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "data": "选项卡一",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": [Circular],
+                                  "parent": [Circular],
+                                  "prev": Object {
+                                    "attribs": Object {
+                                      "class": "eui-tabs-ink-bar",
+                                      "style": "transform: translate3d(0px,0,0); width: 0px; display: block;",
+                                    },
+                                    "children": Array [],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                      "style": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                      "style": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                },
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "aria-disabled": undefined,
+                                  "aria-selected": undefined,
+                                  "class": undefined,
+                                  "role": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "aria-disabled": undefined,
+                                  "aria-selected": undefined,
+                                  "class": undefined,
+                                  "role": undefined,
+                                },
+                              },
+                              Object {
+                                "attribs": Object {
+                                  "aria-disabled": "false",
+                                  "aria-selected": "true",
+                                  "class": "eui-tabs-tab-active eui-tabs-tab",
+                                  "role": "tab",
+                                },
+                                "children": Array [
+                                  Object {
+                                    "attribs": Object {
+                                      "class": "eui-tabs-tab-inner",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "data": "选项卡3",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                ],
+                                "name": "div",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": Object {
+                                  "attribs": Object {
+                                    "aria-disabled": "false",
+                                    "aria-selected": "false",
+                                    "class": " eui-tabs-tab",
+                                    "role": "tab",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "attribs": Object {
+                                        "class": "eui-tabs-tab-inner",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "data": "选项卡2",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": [Circular],
+                                  "parent": [Circular],
+                                  "prev": Object {
+                                    "attribs": Object {
+                                      "aria-disabled": "false",
+                                      "aria-selected": "false",
+                                      "class": " eui-tabs-tab",
+                                      "role": "tab",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {
+                                          "class": "eui-tabs-tab-inner",
+                                        },
+                                        "children": Array [
+                                          Object {
+                                            "data": "选项卡一",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "div",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": Object {
+                                      "attribs": Object {
+                                        "class": "eui-tabs-ink-bar",
+                                        "style": "transform: translate3d(0px,0,0); width: 0px; display: block;",
+                                      },
+                                      "children": Array [],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": [Circular],
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                        "style": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                        "style": undefined,
+                                      },
+                                    },
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                },
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "aria-disabled": undefined,
+                                  "aria-selected": undefined,
+                                  "class": undefined,
+                                  "role": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "aria-disabled": undefined,
+                                  "aria-selected": undefined,
+                                  "class": undefined,
+                                  "role": undefined,
+                                },
+                              },
+                            ],
+                            "name": "div",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": Object {
+              "attribs": Object {
+                "class": "eui-tabs-content",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {},
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [],
+                      "name": "noscript",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": Object {
+                        "attribs": Object {},
+                        "children": Array [],
+                        "name": "noscript",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": Object {
+                          "attribs": Object {
+                            "aria-hidden": "false",
+                            "class": "eui-tabs-tabpane",
+                            "role": "tabpanel",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "选项卡三内容",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": [Circular],
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "aria-hidden": undefined,
+                            "class": undefined,
+                            "role": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "aria-hidden": undefined,
+                            "class": undefined,
+                            "role": undefined,
+                          },
+                        },
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {},
+                      "x-attribsPrefix": Object {},
+                    },
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [],
+                      "name": "noscript",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": Object {
+                        "attribs": Object {
+                          "aria-hidden": "false",
+                          "class": "eui-tabs-tabpane",
+                          "role": "tabpanel",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "选项卡三内容",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "aria-hidden": undefined,
+                          "class": undefined,
+                          "role": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "aria-hidden": undefined,
+                          "class": undefined,
+                          "role": undefined,
+                        },
+                      },
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {},
+                        "children": Array [],
+                        "name": "noscript",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {},
+                      "x-attribsPrefix": Object {},
+                    },
+                    Object {
+                      "attribs": Object {
+                        "aria-hidden": "false",
+                        "class": "eui-tabs-tabpane",
+                        "role": "tabpanel",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "选项卡三内容",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {},
+                        "children": Array [],
+                        "name": "noscript",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": Object {
+                          "attribs": Object {},
+                          "children": Array [],
+                          "name": "noscript",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": [Circular],
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
+                        },
+                        "type": "tag",
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "aria-hidden": undefined,
+                        "class": undefined,
+                        "role": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "aria-hidden": undefined,
+                        "class": undefined,
+                        "role": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {},
+                  "x-attribsPrefix": Object {},
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": [Circular],
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+              },
+            },
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "role": undefined,
+              "tabindex": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "role": undefined,
+              "tabindex": undefined,
+            },
+          },
+          Object {
+            "attribs": Object {
+              "class": "eui-tabs-content",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "attribs": Object {},
+                    "children": Array [],
+                    "name": "noscript",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": Object {
+                      "attribs": Object {},
+                      "children": Array [],
+                      "name": "noscript",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": Object {
+                        "attribs": Object {
+                          "aria-hidden": "false",
+                          "class": "eui-tabs-tabpane",
+                          "role": "tabpanel",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "选项卡三内容",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "aria-hidden": undefined,
+                          "class": undefined,
+                          "role": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "aria-hidden": undefined,
+                          "class": undefined,
+                          "role": undefined,
+                        },
+                      },
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {},
+                      "x-attribsPrefix": Object {},
+                    },
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {},
+                    "x-attribsPrefix": Object {},
+                  },
+                  Object {
+                    "attribs": Object {},
+                    "children": Array [],
+                    "name": "noscript",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": Object {
+                      "attribs": Object {
+                        "aria-hidden": "false",
+                        "class": "eui-tabs-tabpane",
+                        "role": "tabpanel",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "选项卡三内容",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "aria-hidden": undefined,
+                        "class": undefined,
+                        "role": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "aria-hidden": undefined,
+                        "class": undefined,
+                        "role": undefined,
+                      },
+                    },
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {},
+                      "children": Array [],
+                      "name": "noscript",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {},
+                      "x-attribsPrefix": Object {},
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {},
+                    "x-attribsPrefix": Object {},
+                  },
+                  Object {
+                    "attribs": Object {
+                      "aria-hidden": "false",
+                      "class": "eui-tabs-tabpane",
+                      "role": "tabpanel",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "选项卡三内容",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {},
+                      "children": Array [],
+                      "name": "noscript",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {},
+                        "children": Array [],
+                        "name": "noscript",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {},
+                      "x-attribsPrefix": Object {},
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "aria-hidden": undefined,
+                      "class": undefined,
+                      "role": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "aria-hidden": undefined,
+                      "class": undefined,
+                      "role": undefined,
+                    },
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": Object {
+              "attribs": Object {
+                "class": "eui-tabs-bar",
+                "role": "tablist",
+                "tabindex": "0",
+              },
+              "children": Array [
+                Object {
+                  "attribs": Object {
+                    "class": "eui-tabs-nav-container ",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "eui-tabs-nav-wrap",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "class": "eui-tabs-nav-scroll",
+                          },
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "class": "eui-tabs-nav",
+                              },
+                              "children": Array [
+                                Object {
+                                  "attribs": Object {
+                                    "class": "eui-tabs-ink-bar",
+                                    "style": "transform: translate3d(0px,0,0); width: 0px; display: block;",
+                                  },
+                                  "children": Array [],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Object {
+                                    "attribs": Object {
+                                      "aria-disabled": "false",
+                                      "aria-selected": "false",
+                                      "class": " eui-tabs-tab",
+                                      "role": "tab",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {
+                                          "class": "eui-tabs-tab-inner",
+                                        },
+                                        "children": Array [
+                                          Object {
+                                            "data": "选项卡一",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "div",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": Object {
+                                      "attribs": Object {
+                                        "aria-disabled": "false",
+                                        "aria-selected": "false",
+                                        "class": " eui-tabs-tab",
+                                        "role": "tab",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "attribs": Object {
+                                            "class": "eui-tabs-tab-inner",
+                                          },
+                                          "children": Array [
+                                            Object {
+                                              "data": "选项卡2",
+                                              "next": null,
+                                              "parent": [Circular],
+                                              "prev": null,
+                                              "type": "text",
+                                            },
+                                          ],
+                                          "name": "div",
+                                          "namespace": "http://www.w3.org/1999/xhtml",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "tag",
+                                          "x-attribsNamespace": Object {
+                                            "class": undefined,
+                                          },
+                                          "x-attribsPrefix": Object {
+                                            "class": undefined,
+                                          },
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": Object {
+                                        "attribs": Object {
+                                          "aria-disabled": "false",
+                                          "aria-selected": "true",
+                                          "class": "eui-tabs-tab-active eui-tabs-tab",
+                                          "role": "tab",
+                                        },
+                                        "children": Array [
+                                          Object {
+                                            "attribs": Object {
+                                              "class": "eui-tabs-tab-inner",
+                                            },
+                                            "children": Array [
+                                              Object {
+                                                "data": "选项卡3",
+                                                "next": null,
+                                                "parent": [Circular],
+                                                "prev": null,
+                                                "type": "text",
+                                              },
+                                            ],
+                                            "name": "div",
+                                            "namespace": "http://www.w3.org/1999/xhtml",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "tag",
+                                            "x-attribsNamespace": Object {
+                                              "class": undefined,
+                                            },
+                                            "x-attribsPrefix": Object {
+                                              "class": undefined,
+                                            },
+                                          },
+                                        ],
+                                        "name": "div",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": [Circular],
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "aria-disabled": undefined,
+                                          "aria-selected": undefined,
+                                          "class": undefined,
+                                          "role": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "aria-disabled": undefined,
+                                          "aria-selected": undefined,
+                                          "class": undefined,
+                                          "role": undefined,
+                                        },
+                                      },
+                                      "parent": [Circular],
+                                      "prev": [Circular],
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "aria-disabled": undefined,
+                                        "aria-selected": undefined,
+                                        "class": undefined,
+                                        "role": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "aria-disabled": undefined,
+                                        "aria-selected": undefined,
+                                        "class": undefined,
+                                        "role": undefined,
+                                      },
+                                    },
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                  },
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                    "style": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                    "style": undefined,
+                                  },
+                                },
+                                Object {
+                                  "attribs": Object {
+                                    "aria-disabled": "false",
+                                    "aria-selected": "false",
+                                    "class": " eui-tabs-tab",
+                                    "role": "tab",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "attribs": Object {
+                                        "class": "eui-tabs-tab-inner",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "data": "选项卡一",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Object {
+                                    "attribs": Object {
+                                      "aria-disabled": "false",
+                                      "aria-selected": "false",
+                                      "class": " eui-tabs-tab",
+                                      "role": "tab",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {
+                                          "class": "eui-tabs-tab-inner",
+                                        },
+                                        "children": Array [
+                                          Object {
+                                            "data": "选项卡2",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "div",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": Object {
+                                      "attribs": Object {
+                                        "aria-disabled": "false",
+                                        "aria-selected": "true",
+                                        "class": "eui-tabs-tab-active eui-tabs-tab",
+                                        "role": "tab",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "attribs": Object {
+                                            "class": "eui-tabs-tab-inner",
+                                          },
+                                          "children": Array [
+                                            Object {
+                                              "data": "选项卡3",
+                                              "next": null,
+                                              "parent": [Circular],
+                                              "prev": null,
+                                              "type": "text",
+                                            },
+                                          ],
+                                          "name": "div",
+                                          "namespace": "http://www.w3.org/1999/xhtml",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "tag",
+                                          "x-attribsNamespace": Object {
+                                            "class": undefined,
+                                          },
+                                          "x-attribsPrefix": Object {
+                                            "class": undefined,
+                                          },
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": [Circular],
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "aria-disabled": undefined,
+                                        "aria-selected": undefined,
+                                        "class": undefined,
+                                        "role": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "aria-disabled": undefined,
+                                        "aria-selected": undefined,
+                                        "class": undefined,
+                                        "role": undefined,
+                                      },
+                                    },
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                  },
+                                  "parent": [Circular],
+                                  "prev": Object {
+                                    "attribs": Object {
+                                      "class": "eui-tabs-ink-bar",
+                                      "style": "transform: translate3d(0px,0,0); width: 0px; display: block;",
+                                    },
+                                    "children": Array [],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                      "style": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                      "style": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                },
+                                Object {
+                                  "attribs": Object {
+                                    "aria-disabled": "false",
+                                    "aria-selected": "false",
+                                    "class": " eui-tabs-tab",
+                                    "role": "tab",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "attribs": Object {
+                                        "class": "eui-tabs-tab-inner",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "data": "选项卡2",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Object {
+                                    "attribs": Object {
+                                      "aria-disabled": "false",
+                                      "aria-selected": "true",
+                                      "class": "eui-tabs-tab-active eui-tabs-tab",
+                                      "role": "tab",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {
+                                          "class": "eui-tabs-tab-inner",
+                                        },
+                                        "children": Array [
+                                          Object {
+                                            "data": "选项卡3",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "div",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                  },
+                                  "parent": [Circular],
+                                  "prev": Object {
+                                    "attribs": Object {
+                                      "aria-disabled": "false",
+                                      "aria-selected": "false",
+                                      "class": " eui-tabs-tab",
+                                      "role": "tab",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {
+                                          "class": "eui-tabs-tab-inner",
+                                        },
+                                        "children": Array [
+                                          Object {
+                                            "data": "选项卡一",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "div",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": Object {
+                                      "attribs": Object {
+                                        "class": "eui-tabs-ink-bar",
+                                        "style": "transform: translate3d(0px,0,0); width: 0px; display: block;",
+                                      },
+                                      "children": Array [],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": [Circular],
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                        "style": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                        "style": undefined,
+                                      },
+                                    },
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                },
+                                Object {
+                                  "attribs": Object {
+                                    "aria-disabled": "false",
+                                    "aria-selected": "true",
+                                    "class": "eui-tabs-tab-active eui-tabs-tab",
+                                    "role": "tab",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "attribs": Object {
+                                        "class": "eui-tabs-tab-inner",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "data": "选项卡3",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": Object {
+                                    "attribs": Object {
+                                      "aria-disabled": "false",
+                                      "aria-selected": "false",
+                                      "class": " eui-tabs-tab",
+                                      "role": "tab",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {
+                                          "class": "eui-tabs-tab-inner",
+                                        },
+                                        "children": Array [
+                                          Object {
+                                            "data": "选项卡2",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "div",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": Object {
+                                      "attribs": Object {
+                                        "aria-disabled": "false",
+                                        "aria-selected": "false",
+                                        "class": " eui-tabs-tab",
+                                        "role": "tab",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "attribs": Object {
+                                            "class": "eui-tabs-tab-inner",
+                                          },
+                                          "children": Array [
+                                            Object {
+                                              "data": "选项卡一",
+                                              "next": null,
+                                              "parent": [Circular],
+                                              "prev": null,
+                                              "type": "text",
+                                            },
+                                          ],
+                                          "name": "div",
+                                          "namespace": "http://www.w3.org/1999/xhtml",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "tag",
+                                          "x-attribsNamespace": Object {
+                                            "class": undefined,
+                                          },
+                                          "x-attribsPrefix": Object {
+                                            "class": undefined,
+                                          },
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": [Circular],
+                                      "parent": [Circular],
+                                      "prev": Object {
+                                        "attribs": Object {
+                                          "class": "eui-tabs-ink-bar",
+                                          "style": "transform: translate3d(0px,0,0); width: 0px; display: block;",
+                                        },
+                                        "children": Array [],
+                                        "name": "div",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": [Circular],
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                          "style": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                          "style": undefined,
+                                        },
+                                      },
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "aria-disabled": undefined,
+                                        "aria-selected": undefined,
+                                        "class": undefined,
+                                        "role": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "aria-disabled": undefined,
+                                        "aria-selected": undefined,
+                                        "class": undefined,
+                                        "role": undefined,
+                                      },
+                                    },
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "aria-disabled": undefined,
+                                      "aria-selected": undefined,
+                                      "class": undefined,
+                                      "role": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "aria-disabled": undefined,
+                                    "aria-selected": undefined,
+                                    "class": undefined,
+                                    "role": undefined,
+                                  },
+                                },
+                              ],
+                              "name": "div",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                          ],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+              ],
+              "name": "div",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": [Circular],
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "role": undefined,
+                "tabindex": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "role": undefined,
+                "tabindex": undefined,
+              },
+            },
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {},
+    "x-attribsPrefix": Object {},
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;
