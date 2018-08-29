@@ -1,6 +1,6 @@
 {
   "name": "@mistong/eui-tab",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "EUI component template",
   "main": "dist/index.js",
   "scripts": {

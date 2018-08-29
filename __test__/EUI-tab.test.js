@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Enzyme, { mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-14';
 // import EmptyData from '../src/';
-import { Tabs, TabPane } from '../src/tabs';
+import { Tabs, TabPane } from '../src/index';
 
 Enzyme.configure({ adapter: new Adapter() });
 
