@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './demo.scss';
-import { Tabs, TabPane } from '../src/tabs';
+import { Tabs, TabPane } from '../src/index';
 import Icon from '@mistong/eui-icon'; // eslint-disable-line
 function callback() {
   // console.log(key);
