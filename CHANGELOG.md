@@ -1,5 +1,15 @@
+<a name="0.1.4"></a>
+## [0.1.4](https://github.com/MST-EUI/EUI-component-tpl/compare/v0.1.3...v0.1.4) (2018-10-17)
+
+
+### Bug Fixes
+
+* moved [@mistong](https://github.com/mistong)/eui to devDep ([0c68c4b](https://github.com/MST-EUI/EUI-component-tpl/commit/0c68c4b))
+
+
+
 <a name="0.1.3"></a>
-## 0.1.3 (2018-10-17)
+## [0.1.3](https://github.com/MST-EUI/EUI-component-tpl/compare/f479b16...v0.1.3) (2018-10-17)
 
 
 ### Bug Fixes
