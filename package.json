@@ -41,7 +41,8 @@
   },
   "files": [
     "dist",
-    "src"
+    "src",
+    "demo"
   ],
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
