@@ -380,60 +380,59 @@ export default demo2;
           </thead>
           <tbody>
             <tr>
+              <td>activeKey</td>
+              <td>当前激活选项key 背景图片类型
+              </td>
+              <td>(<Code mode="inline">String</Code>
+                )
+              </td>
+              <td>
+                <Code mode="inline">null</Code>
+              </td>
+            </tr>
+            <tr>
+              <td>defaultActiveKey</td>
+              <td>设置默认选项(first active tabPane key )</td>
+              <td>(<Code mode="inline">String</Code>
+                )
+              </td>
+              <td>
+                <Code mode="inline">null</Code>
+              </td>
+
+            </tr>
+            <tr>
+              <td>onChange</td>
+              <td>切换回调</td>
+              <td>function</td>
+              <td />
+            </tr>
+            <tr>
+              <td>disabled</td>
+              <td>是否禁用该选项
+              </td>
+              <td>Boolean</td>
+              <td>
+                <Code mode="inline">false</Code>
+              </td>
+            </tr>
+            <tr>
+              <td>tabBarExtraContent</td>
+              <td>额外的元素 在tab右侧</td>
+              <td>React Node</td>
+              <td>
+                <Code mode="inline">null</Code>
+              </td>
+            </tr>
+            <tr>
               <td>type</td>
-              <td>背景图片类型 (<Code mode="inline">small</Code>
-                <Code mode="inline">medium</Code>
-                <Code mode="inline">large</Code>)
-              </td>
-              <td>string</td>
+              <td>line、card 选项卡模式 是否选择卡片模式</td>
+              <td>String</td>
               <td>
-                <Code mode="inline">medium</Code>
+                <Code mode="inline">line</Code>
               </td>
             </tr>
-            <tr>
-              <td>children</td>
-              <td>描述文案</td>
-              <td>any</td>
-              <td>暂无数据</td>
-            </tr>
-            <tr>
-              <td>icon</td>
-              <td>自定义图片</td>
-              <td>string</td>
-              <td>https://yukap6.github.io/images/empty.png</td>
-            </tr>
-            <tr>
-              <td>lang</td>
-              <td>语言包类型 (<Code mode="inline">zh-cn</Code>
-                <Code mode="inline">en</Code>)
-              </td>
-              <td>string</td>
-              <td>
-                <Code mode="inline">zh-cn</Code>
-              </td>
-            </tr>
-            <tr>
-              <td>className</td>
-              <td>添加自定义class</td>
-              <td>string</td>
-              <td>
-                <Code mode="inline">&#39;&#39;</Code>
-              </td>
-            </tr>
-            <tr>
-              <td>style</td>
-              <td>自定义样式</td>
-              <td>object</td>
-              <td>
-                <Code mode="inline">{'{}'}</Code>
-              </td>
-            </tr>
-            <tr>
-              <td>prefixCls</td>
-              <td>样式名前缀</td>
-              <td>string</td>
-              <td>eui-empty-data</td>
-            </tr>
+
           </tbody>
         </table>
       </Demo>
