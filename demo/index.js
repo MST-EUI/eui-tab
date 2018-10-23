@@ -4,7 +4,7 @@
 */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Icon, Code, Demo } from '@mistong/eui';
+import { Code, Demo } from '@mistong/eui';
 
 /* placeholder begin eui style */
 import '@mistong/eui/dist/index.css';
@@ -23,12 +23,12 @@ function callback() {
 /* placeholder begin class */
 class DemoComponent extends React.Component {
   render() {
-    const demo1 = `
-   import React, {Component} from 'react';
-import {Tabs, TabPane} from '@mistong/eui';
-function callback(){
+    const demo1 = `import React, {Component} from 'react';
+import { Tab } from '@mistong/eui';
 
-}
+const { Tabs, TabPane } = Tab;
+const  callback = () => {};
+
 class demo1 extends Component {
     render() {
         return (
@@ -49,39 +49,41 @@ class demo1 extends Component {
 }
 
 export default demo1;
+`;
+    const demo2 = `import React, {Component} from 'react';
+import { Tab } from '@mistong/eui';
 
-   `;
-    const demo2 = `
-   import React, {Component} from 'react';
-   import {Tabs, TabPane} from '@mistong/eui';
-   function callback() {}
-   class demo2 extends Component {
-       render() {
-           return (
-               <div className="demo2">
-                   <Tabs defaultActiveKey="1">
-                       {/* disabled 禁用某一项 */}
-                       <TabPane tab="选项卡一" key="1">选项卡一</TabPane>
-                       <TabPane tab="选项卡二" disabled key="2">选项卡二</TabPane>
-                       <TabPane tab="选项卡三" key="3">选项卡三</TabPane>
-                   </Tabs>
-                   <div className="desc">
-                       disabled 禁用该项
-                   </div>
-               </div>
-           );
-       }
-   }
+const { Tabs, TabPane } = Tab;
 
-   export default demo2;
-
-
-   `;
-
-    const demo3 = `
-   import React, {Component} from 'react';
-import {Tabs, TabPane} from '@mistong/eui';
 function callback() {}
+
+class demo2 extends Component {
+    render() {
+        return (
+            <div className="demo2">
+                <Tabs defaultActiveKey="1">
+                    {/* disabled 禁用某一项 */}
+                    <TabPane tab="选项卡一" key="1">选项卡一</TabPane>
+                    <TabPane tab="选项卡二" disabled key="2">选项卡二</TabPane>
+                    <TabPane tab="选项卡三" key="3">选项卡三</TabPane>
+                </Tabs>
+                <div className="desc">
+                    disabled 禁用该项
+                </div>
+            </div>
+        );
+    }
+}
+
+export default demo2;
+`;
+
+    const demo3 = `import React, {Component} from 'react';
+import { Tab } from '@mistong/eui';
+
+const { Tabs, TabPane } = Tab;
+function callback() {}
+
 class demo2 extends Component {
     render() {
         return (
@@ -114,11 +116,12 @@ class demo2 extends Component {
 
 export default demo2;
 `;
-    const demo4 = `
+    const demo4 = `import React, {Component} from 'react';
+import { Tab } from '@mistong/eui';
 
-import React, {Component} from 'react';
-import {Tabs, TabPane} from '@mistong/eui';
+const { Tabs, TabPane } = Tab;
 function callback() {}
+
 class demo4 extends Component {
     render() {
         return (
@@ -156,10 +159,12 @@ class demo4 extends Component {
 
 export default demo4;
 `;
-    const demo5 = `
-import React, {Component} from 'react';
-import {Tabs, TabPane} from '@mistong/eui';
+    const demo5 = `import React, {Component} from 'react';
+import { Tab } from '@mistong/eui';
+
+const { Tabs, TabPane } = Tab;
 function callback() {}
+
 class demo2 extends Component {
     render() {
         return (
@@ -200,14 +205,14 @@ class demo2 extends Component {
     }
 }
 
-export default demo2;
+export default demo2;`;
 
-`;
+    const demo6 = `import React, {Component} from 'react';
+import { Tab } from '@mistong/eui';
 
-    const demo6 = `
-import React, {Component} from 'react';
-import {Tabs, TabPane} from '@mistong/eui';
+const { Tabs, TabPane } = Tab;
 function callback() {}
+
 class demo2 extends Component {
     render() {
         return (
@@ -232,35 +237,25 @@ export default demo2;
         <h3>何时使用</h3>
         <p>提供平级的区域将大块内容进行收纳和展现，保持界面整洁。</p>
         <h3>代码演示</h3>
-        <h4>Demo1演示回调和默认Tab</h4>
-        <Code sourceCode={demo1}>
-
+        <Code sourceCode={demo1} buttonText="Demo1演示回调和默认Tab">
           <div className="demo1">
             <Tabs defaultActiveKey="3" onChange={callback}>
-              <TabPane tab="选项卡一" key="1">选项卡一内容</TabPane>
-              <TabPane tab="选项卡2" key="2">选项卡二内容</TabPane>
-              <TabPane tab="选项卡3" key="3">选项卡三内容</TabPane>
+              <TabPane tab="选项卡一" key="1"><br /><br />选项卡一内容<br />选项卡一内容<br />选项卡一内容<br />选项卡一内容<br /><br /><br /></TabPane>
+              <TabPane tab="选项卡2" key="2"><br /><br />选项卡二内容<br />选项卡二内容<br />选项卡二内容<br />选项卡二内容<br /><br /><br /></TabPane>
+              <TabPane tab="选项卡3" key="3"><br /><br />选项卡三内容<br />选项卡三内容<br />选项卡三内容<br />选项卡三内容<br /><br /><br /></TabPane>
             </Tabs>
-
           </div>
         </Code>
-        <h4>Demo2演示disabled</h4>
-        <Code sourceCode={demo2}>
-
+        <Code sourceCode={demo2} buttonText="Demo2演示disabled">
           <div className="demo2">
             <Tabs defaultActiveKey="1">
-              {/* disabled 禁用某一项 */}
-              <TabPane tab="选项卡一" key="1">选项卡一</TabPane>
-              <TabPane tab="选项卡二" disabled key="2">选项卡二</TabPane>
-              <TabPane tab="选项卡三" key="3">选项卡三</TabPane>
+              <TabPane tab="选项卡一" key="1"><br /><br />选项卡一内容<br />选项卡一内容<br />选项卡一内容<br />选项卡一内容<br /><br /><br /></TabPane>
+              <TabPane tab="选项卡2" disabled key="2"><br /><br />选项卡二内容<br />选项卡二内容<br />选项卡二内容<br />选项卡二内容<br /><br /><br /></TabPane>
+              <TabPane tab="选项卡3" key="3"><br /><br />选项卡三内容<br />选项卡三内容<br />选项卡三内容<br />选项卡三内容<br /><br /><br /></TabPane>
             </Tabs>
-
           </div>
         </Code>
-
-        <h4>带图标的选项卡</h4>
-        <Code sourceCode={demo3}>
-
+        <Code sourceCode={demo3} buttonText="带图标的选项卡">
           <div className="demo3">
             <Tabs defaultActiveKey="2">
               <TabPane
@@ -271,7 +266,7 @@ export default demo2;
               )}
                 key="1"
               >
-                选项卡一
+                <br /><br />选项卡一内容<br />选项卡一内容<br />选项卡一内容<br />选项卡一内容<br /><br /><br />
               </TabPane>
               <TabPane
                 tab={(
@@ -281,45 +276,21 @@ export default demo2;
               )}
                 key="2"
               >
-                选项卡二
+                <br /><br />选项卡二内容<br />选项卡二内容<br />选项卡二内容<br />选项卡二内容<br /><br /><br />
               </TabPane>
             </Tabs>
-
           </div>
         </Code>
-        <h4>可滑动选项卡</h4>
-        <Code sourceCode={demo4}>
-
+        <Code sourceCode={demo4} buttonText="可滑动选项卡">
           <div className="demo4">
             <Tabs defaultActiveKey="1">
-              {/* 可以左右滑动，容纳更多标签。   */}
-              <TabPane tab="选项卡二选项卡二内容选项卡二内容内容" key="1">选项卡一</TabPane>
-              <TabPane tab="选项二" key="2">选项卡二</TabPane>
-              <TabPane tab="选项三" key="3">选项卡三</TabPane>
-              <TabPane tab="选项四" key="4">选项卡四</TabPane>
-              <TabPane tab="选项五" key="5">选项卡五</TabPane>
-              <TabPane tab="选项六" key="6">选项卡六</TabPane>
-              <TabPane tab="选项七" key="7">选项卡七</TabPane>
-              <TabPane tab="选项八" key="8">选项卡八</TabPane>
-              <TabPane tab="选项九" key="9">选项卡九</TabPane>
-              <TabPane tab="选项一" key="10">选项卡一</TabPane>
-              <TabPane tab="选项二" key="22">选项卡二</TabPane>
-              <TabPane tab="选项三" key="33">选项卡三</TabPane>
-              <TabPane tab="选项四" key="44">选项卡四</TabPane>
-              <TabPane tab="选项五" key="55">选项卡五</TabPane>
-              <TabPane tab="选项六" key="66">选项卡六</TabPane>
-              <TabPane tab="选项七" key="77">选项卡七</TabPane>
-              <TabPane tab="选项八" key="86">选项卡八</TabPane>
-              <TabPane tab="选项九" key="95">选项卡九</TabPane>
-
+              {
+                [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].map(item => <TabPane tab={`选项${item}`} key={item}><br /><br />选项卡{item}<br /><br />选项卡{item}<br /><br /></TabPane>)
+              }
             </Tabs>
-
-            <Icon type="error" />
           </div>
         </Code>
-        <h4>带图标的选项卡</h4>
-        <Code sourceCode={demo5}>
-
+        <Code sourceCode={demo5} buttonText="带图标的选项卡">
           <div className="demo5">
             <Tabs onChange={callback} type="icon">
               {/* card提供另外样式 */}
@@ -331,7 +302,8 @@ export default demo2;
                   </div>
               )}
                 key="1"
-              >type icon
+              >
+                <br /><br />选项卡1<br /><br />选项卡1<br /><br />
               </TabPane>
               <TabPane
                 tab={(
@@ -341,7 +313,8 @@ export default demo2;
                   </div>
               )}
                 key="2"
-              >选项卡二选项卡二内容选项卡二内容内容
+              >
+                <br /><br />选项卡2<br /><br />选项卡2<br /><br />
               </TabPane>
               <TabPane
                 tab={(
@@ -351,23 +324,22 @@ export default demo2;
                   </div>
               )}
                 key="3"
-              >选项卡三内容
+              >
+                <br /><br />选项卡3<br /><br />选项卡3<br /><br />
               </TabPane>
             </Tabs>
           </div>
         </Code>
-        <h4>卡片式选项卡</h4>
-        <Code sourceCode={demo6}>
+        <Code sourceCode={demo6} buttonText="卡片式选项卡">
           <div className="demo6">
             <Tabs onChange={callback} type="card">
               {/* card提供另外样式 */}
-              <TabPane tab="选项卡一" key="1">选项卡一内容</TabPane>
-              <TabPane tab="选项卡二" key="2">选项卡二内容</TabPane>
-              <TabPane tab="选项卡三" key="3">选项卡三内容</TabPane>
+              <TabPane tab="选项卡一" key="1"><br /><br />选项卡1<br /><br />选项卡1<br /><br /></TabPane>
+              <TabPane tab="选项卡二" key="2"><br /><br />选项卡2<br /><br />选项卡2<br /><br /></TabPane>
+              <TabPane tab="选项卡三" key="3"><br /><br />选项卡3<br /><br />选项卡3<br /><br /></TabPane>
             </Tabs>
           </div>
         </Code>
-
         <h3>API</h3>
         <table>
           <thead>
